@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1841AC1AE27EAB004BF40D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1841AB1AE27EAB004BF40D /* AppDelegate.swift */; };
+		3D1841B11AE27EAB004BF40D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1841AF1AE27EAB004BF40D /* Main.storyboard */; };
+		3D1841B31AE27EAB004BF40D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1841B21AE27EAB004BF40D /* Images.xcassets */; };
+		3D1841B61AE27EAB004BF40D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D1841B41AE27EAB004BF40D /* LaunchScreen.xib */; };
+		3D1841C21AE27EAB004BF40D /* Muhammad_AtharTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1841C11AE27EAB004BF40D /* Muhammad_AtharTests.swift */; };
+		3D82241B1AECFA60009DE699 /* AboutMeContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82241A1AECFA60009DE699 /* AboutMeContainerViewController.swift */; };
+		3D82241D1AECFA7A009DE699 /* InterestsContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82241C1AECFA7A009DE699 /* InterestsContainerViewController.swift */; };
+		3D82241F1AECFA8A009DE699 /* TechnicalSkillsContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82241E1AECFA8A009DE699 /* TechnicalSkillsContainerViewController.swift */; };
+		3D8224211AECFA98009DE699 /* AppDevelopmentContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8224201AECFA98009DE699 /* AppDevelopmentContainerViewController.swift */; };
+		3D8224231AECFACA009DE699 /* WhyWWDCContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8224221AECFACA009DE699 /* WhyWWDCContainerViewController.swift */; };
+		3DE071501AED40D6002DC2BB /* FlickrWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0714F1AED40D6002DC2BB /* FlickrWebViewViewController.swift */; };
+		3DE434BA1AEAAFBC001E918C /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE434B91AEAAFBC001E918C /* IntroductionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D1841BC1AE27EAB004BF40D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D18419E1AE27EAB004BF40D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D1841A51AE27EAB004BF40D;
+			remoteInfo = "Muhammad Athar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D1841A61AE27EAB004BF40D /* Muhammad Athar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muhammad Athar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1841AA1AE27EAB004BF40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1841AB1AE27EAB004BF40D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D1841B01AE27EAB004BF40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D1841B21AE27EAB004BF40D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D1841B51AE27EAB004BF40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D1841BB1AE27EAB004BF40D /* Muhammad AtharTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Muhammad AtharTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1841C01AE27EAB004BF40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1841C11AE27EAB004BF40D /* Muhammad_AtharTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muhammad_AtharTests.swift; sourceTree = "<group>"; };
+		3D82241A1AECFA60009DE699 /* AboutMeContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeContainerViewController.swift; sourceTree = "<group>"; };
+		3D82241C1AECFA7A009DE699 /* InterestsContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterestsContainerViewController.swift; path = ../InterestsContainerViewController.swift; sourceTree = "<group>"; };
+		3D82241E1AECFA8A009DE699 /* TechnicalSkillsContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnicalSkillsContainerViewController.swift; sourceTree = "<group>"; };
+		3D8224201AECFA98009DE699 /* AppDevelopmentContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDevelopmentContainerViewController.swift; sourceTree = "<group>"; };
+		3D8224221AECFACA009DE699 /* WhyWWDCContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhyWWDCContainerViewController.swift; sourceTree = "<group>"; };
+		3DE0714F1AED40D6002DC2BB /* FlickrWebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrWebViewViewController.swift; sourceTree = "<group>"; };
+		3DE434B91AEAAFBC001E918C /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1841A31AE27EAB004BF40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1841B81AE27EAB004BF40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D18419D1AE27EAB004BF40D = {
+			isa = PBXGroup;
+			children = (
+				3D1841A81AE27EAB004BF40D /* Muhammad Athar */,
+				3D1841BE1AE27EAB004BF40D /* Muhammad AtharTests */,
+				3D1841A71AE27EAB004BF40D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D1841A71AE27EAB004BF40D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D1841A61AE27EAB004BF40D /* Muhammad Athar.app */,
+				3D1841BB1AE27EAB004BF40D /* Muhammad AtharTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D1841A81AE27EAB004BF40D /* Muhammad Athar */ = {
+			isa = PBXGroup;
+			children = (
+				3D1841AB1AE27EAB004BF40D /* AppDelegate.swift */,
+				3DE434B91AEAAFBC001E918C /* IntroductionViewController.swift */,
+				3D82241A1AECFA60009DE699 /* AboutMeContainerViewController.swift */,
+				3D82241C1AECFA7A009DE699 /* InterestsContainerViewController.swift */,
+				3DE0714F1AED40D6002DC2BB /* FlickrWebViewViewController.swift */,
+				3D82241E1AECFA8A009DE699 /* TechnicalSkillsContainerViewController.swift */,
+				3D8224201AECFA98009DE699 /* AppDevelopmentContainerViewController.swift */,
+				3D8224221AECFACA009DE699 /* WhyWWDCContainerViewController.swift */,
+				3D1841AF1AE27EAB004BF40D /* Main.storyboard */,
+				3D1841B21AE27EAB004BF40D /* Images.xcassets */,
+				3D1841B41AE27EAB004BF40D /* LaunchScreen.xib */,
+				3D1841A91AE27EAB004BF40D /* Supporting Files */,
+			);
+			path = "Muhammad Athar";
+			sourceTree = "<group>";
+		};
+		3D1841A91AE27EAB004BF40D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D1841AA1AE27EAB004BF40D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D1841BE1AE27EAB004BF40D /* Muhammad AtharTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D1841C11AE27EAB004BF40D /* Muhammad_AtharTests.swift */,
+				3D1841BF1AE27EAB004BF40D /* Supporting Files */,
+			);
+			path = "Muhammad AtharTests";
+			sourceTree = "<group>";
+		};
+		3D1841BF1AE27EAB004BF40D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D1841C01AE27EAB004BF40D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D1841A51AE27EAB004BF40D /* Muhammad Athar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1841C51AE27EAB004BF40D /* Build configuration list for PBXNativeTarget "Muhammad Athar" */;
+			buildPhases = (
+				3D1841A21AE27EAB004BF40D /* Sources */,
+				3D1841A31AE27EAB004BF40D /* Frameworks */,
+				3D1841A41AE27EAB004BF40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muhammad Athar";
+			productName = "Muhammad Athar";
+			productReference = 3D1841A61AE27EAB004BF40D /* Muhammad Athar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D1841BA1AE27EAB004BF40D /* Muhammad AtharTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1841C81AE27EAB004BF40D /* Build configuration list for PBXNativeTarget "Muhammad AtharTests" */;
+			buildPhases = (
+				3D1841B71AE27EAB004BF40D /* Sources */,
+				3D1841B81AE27EAB004BF40D /* Frameworks */,
+				3D1841B91AE27EAB004BF40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D1841BD1AE27EAB004BF40D /* PBXTargetDependency */,
+			);
+			name = "Muhammad AtharTests";
+			productName = "Muhammad AtharTests";
+			productReference = 3D1841BB1AE27EAB004BF40D /* Muhammad AtharTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D18419E1AE27EAB004BF40D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Muhammad Athar";
+				TargetAttributes = {
+					3D1841A51AE27EAB004BF40D = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 23VV6NN8PA;
+					};
+					3D1841BA1AE27EAB004BF40D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 3D1841A51AE27EAB004BF40D;
+					};
+				};
+			};
+			buildConfigurationList = 3D1841A11AE27EAB004BF40D /* Build configuration list for PBXProject "Muhammad Athar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D18419D1AE27EAB004BF40D;
+			productRefGroup = 3D1841A71AE27EAB004BF40D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1841A51AE27EAB004BF40D /* Muhammad Athar */,
+				3D1841BA1AE27EAB004BF40D /* Muhammad AtharTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D1841A41AE27EAB004BF40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1841B11AE27EAB004BF40D /* Main.storyboard in Resources */,
+				3D1841B61AE27EAB004BF40D /* LaunchScreen.xib in Resources */,
+				3D1841B31AE27EAB004BF40D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1841B91AE27EAB004BF40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D1841A21AE27EAB004BF40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8224231AECFACA009DE699 /* WhyWWDCContainerViewController.swift in Sources */,
+				3D8224211AECFA98009DE699 /* AppDevelopmentContainerViewController.swift in Sources */,
+				3D82241D1AECFA7A009DE699 /* InterestsContainerViewController.swift in Sources */,
+				3DE434BA1AEAAFBC001E918C /* IntroductionViewController.swift in Sources */,
+				3D82241B1AECFA60009DE699 /* AboutMeContainerViewController.swift in Sources */,
+				3DE071501AED40D6002DC2BB /* FlickrWebViewViewController.swift in Sources */,
+				3D82241F1AECFA8A009DE699 /* TechnicalSkillsContainerViewController.swift in Sources */,
+				3D1841AC1AE27EAB004BF40D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1841B71AE27EAB004BF40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1841C21AE27EAB004BF40D /* Muhammad_AtharTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D1841BD1AE27EAB004BF40D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D1841A51AE27EAB004BF40D /* Muhammad Athar */;
+			targetProxy = 3D1841BC1AE27EAB004BF40D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D1841AF1AE27EAB004BF40D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1841B01AE27EAB004BF40D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D1841B41AE27EAB004BF40D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1841B51AE27EAB004BF40D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D1841C31AE27EAB004BF40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D1841C41AE27EAB004BF40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D1841C61AE27EAB004BF40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Muhammad Athar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D1841C71AE27EAB004BF40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Muhammad Athar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3D1841C91AE27EAB004BF40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Muhammad AtharTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muhammad Athar.app/Muhammad Athar";
+			};
+			name = Debug;
+		};
+		3D1841CA1AE27EAB004BF40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Muhammad AtharTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muhammad Athar.app/Muhammad Athar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D1841A11AE27EAB004BF40D /* Build configuration list for PBXProject "Muhammad Athar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1841C31AE27EAB004BF40D /* Debug */,
+				3D1841C41AE27EAB004BF40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1841C51AE27EAB004BF40D /* Build configuration list for PBXNativeTarget "Muhammad Athar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1841C61AE27EAB004BF40D /* Debug */,
+				3D1841C71AE27EAB004BF40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1841C81AE27EAB004BF40D /* Build configuration list for PBXNativeTarget "Muhammad AtharTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1841C91AE27EAB004BF40D /* Debug */,
+				3D1841CA1AE27EAB004BF40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D18419E1AE27EAB004BF40D /* Project object */;
+}
